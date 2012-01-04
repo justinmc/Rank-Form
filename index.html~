@@ -14,17 +14,21 @@
 
 <body>
 
-<h1>Rank</h1>
+<h1>Rank Form</h1>
 <br>
-<form name="rank" action="" method="post">
 <p>
-Please rank the following in order of most to least desirable.
+Thanks for checking out Rank Form!  You can use the arrows to mess around with the 
+rankings of the different materials in this example.  Everything is tied in with
+hidden inputs, so it can be stuck right into a form to let your users easily
+and prettily rank a few selections.  Feel free to mess with the code and design
+and adapt it to your needs!
 </p>
+<br>
 <div class = "rankContainer">
 	<div class = "rankElement" id = "el0">
 		<input type="hidden" name="0">
 		<font class = "rankDisp" id = "el0">1</font>
-		&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
 		Bronze
 		<b class = "down">&nbsp;∨</b>
 		<b class = "up">∧&nbsp;</b>
@@ -32,7 +36,7 @@ Please rank the following in order of most to least desirable.
 	<div class = "rankElement" id = "el1">
 		<input type="hidden" name="1">
 		<font class = "rankDisp" id = "el1">2</font>
-		&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
 		Platinum
 		<b class = "down">&nbsp;∨</b>
 		<b class = "up">∧&nbsp;</b>
@@ -40,7 +44,7 @@ Please rank the following in order of most to least desirable.
 	<div class = "rankElement" id = "el2">
 		<input type="hidden" name="2">
 		<font class = "rankDisp" id = "el2">3</font>
-		&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
 		Gold
 		<b class = "down">&nbsp;∨</b>
 		<b class = "up">∧&nbsp;</b>
@@ -48,7 +52,7 @@ Please rank the following in order of most to least desirable.
 	<div class = "rankElement" id = "el3">
 		<input type="hidden" name="3">
 		<font class = "rankDisp" id = "el3">4</font>
-		&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
 		Silver
 		<b class = "down">&nbsp;∨</b>
 		<b class = "up">∧&nbsp;</b>
@@ -56,15 +60,13 @@ Please rank the following in order of most to least desirable.
 	<div class = "rankElement" id = "el4">
 		<input type="hidden" name="4">
 		<font class = "rankDisp" id = "el4">5</font>
-		&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;
 		Diamond
 		<b class = "down">&nbsp;∨</b>
 		<b class = "up">∧&nbsp;</b>
 	</div>
 </div>
 <br><br>
-<input type = "submit" value = "Submit">
-</form>
 
 <br><br>
 

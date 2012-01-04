@@ -22,11 +22,12 @@ b.down
 cursor: pointer;
 float: right;
 }
-b.down:hover {color: black;}
+b.down:hover {color: #ffc741;}
 
 /* shows the rank of the element */
 font.rankDisp
 {
+position: absolute;
 color: #ffc741;
 }
 
