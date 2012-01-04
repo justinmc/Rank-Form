@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>																																		
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.7.1.js"></script>
+<script type="text/javascript" src="rank.js"></script> <!-- Here is the link to the js for Rank -->
+
+<title>Rank - HTML Form Rank Selector</title>
+<!-- <link REL="SHORTCUT ICON" href="favicon.ico"> -->
+</head>
+
+<body>
+
+<h1>Rank</h1>
+<br>
+<form name="rank" action="" method="post">
+<p>
+Please rank the following in order of most to least desirable.
+</p>
+<div class = "rankContainer">
+	<div class = "rankElement" id = "el0">
+		<input type="hidden" name="0">
+		<font class = "rankDisp" id = "el0">1</font>
+		&nbsp;&nbsp;
+		Bronze
+		<b class = "down">&nbsp;∨</b>
+		<b class = "up">∧&nbsp;</b>
+	</div>
+	<div class = "rankElement" id = "el1">
+		<input type="hidden" name="1">
+		<font class = "rankDisp" id = "el1">2</font>
+		&nbsp;&nbsp;
+		Platinum
+		<b class = "down">&nbsp;∨</b>
+		<b class = "up">∧&nbsp;</b>
+	</div>
+	<div class = "rankElement" id = "el2">
+		<input type="hidden" name="2">
+		<font class = "rankDisp" id = "el2">3</font>
+		&nbsp;&nbsp;
+		Gold
+		<b class = "down">&nbsp;∨</b>
+		<b class = "up">∧&nbsp;</b>
+	</div>
+	<div class = "rankElement" id = "el3">
+		<input type="hidden" name="3">
+		<font class = "rankDisp" id = "el3">4</font>
+		&nbsp;&nbsp;
+		Silver
+		<b class = "down">&nbsp;∨</b>
+		<b class = "up">∧&nbsp;</b>
+	</div>
+	<div class = "rankElement" id = "el4">
+		<input type="hidden" name="4">
+		<font class = "rankDisp" id = "el4">5</font>
+		&nbsp;&nbsp;
+		Diamond
+		<b class = "down">&nbsp;∨</b>
+		<b class = "up">∧&nbsp;</b>
+	</div>
+</div>
+<br><br>
+<input type = "submit" value = "Submit">
+</form>
+
+<br><br>
+
+</body>
+
+</html>
+
+

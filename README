@@ -1,0 +1,28 @@
+Side Scrolling Image Bar
+
+Author:		Justin McCandless
+Created: 	3 January 2012
+Support:	justinjmccandless@gmail.com
+
+www.justinmccandless.com
+
+
+*************
+Overview
+*************
+
+This project is for HTML forms where the user needs to rank a series
+of selections.  It provides a nicely animated set of movable divs 
+that represent each selection.  It uses jquery among simple HTML
+and CSS.
+
+
+*************
+Usage
+*************
+
+Feel free to use any of the code here however you like.  There is a lot
+of potential to modify this project to your needs, so go for it!  I'd
+appreciate credit if you think credit is due.
+
+
